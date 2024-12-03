@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.offer {
+    margin: 20px 0;
+}
+
+.unit {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.unit .details input {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.unit label {
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.discount {
+    color: white;
+    background-color: #ff69b4;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.popular {
+    background-color: #ff4500;
+}
+
+.price {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.price .original {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}

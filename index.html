@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YAY! It's BOGO</h1>
+        <div class="offer">
+            <div class="unit">
+                <div class="details">
+                    <input type="radio" name="unit" id="one-unit">
+                    <label for="one-unit">
+                        <span class="discount">10% Off</span>
+                        <p>1 Unit</p>
+                        <p>Standard Price</p>
+                        <p class="price">$10.00 USD <span class="original">$12.00 USD</span></p>
+                    </label>
+                </div>
+            </div>
+            <div class="unit">
+                <div class="details">
+                    <input type="radio" name="unit" id="two-unit">
+                    <label for="two-unit">
+                        <span class="discount popular">20% Off</span>
+                        <p>2 Units</p>
+                        <div class="options">
+                            <span>#1</span> <span>S</span> <span>Black</span><br>
+                            <span>#2</span> <span>S</span> <span>Color</span>
+                        </div>
+                        <p class="price">$18.00 USD <span class="original">$24.00 USD</span></p>
+                    </label>
+                </div>
+            </div>
+            <div class="unit">
+                <div class="details">
+                    <input type="radio" name="unit" id="three-unit">
+                    <label for="three-unit">
+                        <span class="discount">30% Off</span>
+                        <p>3 Units</p>
+                        <p class="price">$24.00 USD</p>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Free Delivery</p>
+            <p>Total: <span id="total-price">$18.00 USD</span></p>
+            <button id="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
